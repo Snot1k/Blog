@@ -3,10 +3,10 @@
 {% block content %}
     
 {% for p in posts %}
-    <div>
-        <h3><a href="{{p.get_absolute_url}}">{{p.post_header}}</a></h3>
+    <div class="blogpost">
+        <h3><a class="link" href="{{p.get_absolute_url}}">{{p.post_header}}</a></h3>
         <p>{{p.category.category_name}}</p>
-        <p>{{p.datetime}}</p>
+        <p class="date">{{p.datetime}}</p>
     </div>
     <br>
 {% endfor %}
