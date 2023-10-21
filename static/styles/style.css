@@ -4,7 +4,6 @@ body{
 }
 header{
     background-color: rgb(186, 255, 95);
-    padding: 3px;
 }
 header .link{
     text-decoration: none;
@@ -26,4 +25,40 @@ header .link{
 
 .date{
     float: right;
+}
+
+.content{
+    margin: 10px;
+    width: 75%;
+    text-align: justify;
+}
+
+.content h2{
+    margin-left: 10%;
+    font-size: 40px;
+}
+
+.post-text{
+    border-top: 5px double black;
+}
+
+.author{
+    float: right;
+}
+
+.post-text p{
+    font-size: 18px;
+}
+
+.logo{
+    width: 125px;
+    height: 125px;
+    margin: 5px;
+    position: absolute;
+    top:0px;
+    left: 15%;
+}
+.images{
+    float:right;
+    width: 35%;
 }
