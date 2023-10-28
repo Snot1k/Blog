@@ -62,3 +62,12 @@ header .link{
     float:right;
     width: 35%;
 }
+
+.my-list {
+    width: 50%;
+}
+
+.my-list-item {
+    background-color: rgb(85, 255, 85);
+    margin: 3px;
+}

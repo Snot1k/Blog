@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <h1>Список Категорій</h1>
+    <ul class="list-group my-list">
+        {% for category in category_list %}
+            <li class="list-group-item my-list-item"><a class="link" href="/?category={{category.category_name}}"> {{category.category_name}}  </li>
+        {%endfor%}
+    </ul
+
+{% endblock %}
